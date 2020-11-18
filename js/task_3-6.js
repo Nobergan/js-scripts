@@ -1,12 +1,26 @@
+// function calculateTotalPrice(array, prop) {
+//   'use strict';
+//   // Write code under this line
+//   let total = 0;
+
+//   for (let item of array) {
+//     // console.log(item.name);
+//     if (prop === item.name) {
+//       total += item.price * item.quantity;
+//     }
+//   }
+//   return total;
+// }
+
 function calculateTotalPrice(array, prop) {
   'use strict';
   // Write code under this line
   let total = 0;
 
-  for (let item of array) {
-    // console.log(item.name);
-    if (prop === item.name) {
-      total += item.price * item.quantity;
+  for (const key of array) {
+    if (prop === key.name) {
+      console.log(key);
+      total += key.price * key.quantity;
     }
   }
   return total;

@@ -1,11 +1,12 @@
 const findBestEmployee = function (employees) {
-  'use strict';
+  ('use strict');
   // Write code under this line
   let max = 0;
   let bestEmployee = '';
 
   for (const employee in employees) {
     const biggestOfNums = employees[employee];
+    // console.log(employees[employee]);
     if (biggestOfNums > max) {
       max = biggestOfNums;
       bestEmployee = employee;
