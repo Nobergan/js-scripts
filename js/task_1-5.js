@@ -1,4 +1,4 @@
-const countryName = 'КитаЙ';
+const countryName = 'индия';
 
 const CANCELED_BY_USER = 'Отменено пользователем!';
 const NO_DELIVERY = 'В выбранную страну доставка недоступна.';
