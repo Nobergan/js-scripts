@@ -2,5 +2,6 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13,
   "editor.letterSpacing": 1,
-  "editor.fontLigatures": null
+  "editor.fontLigatures": null,
+  "liveServer.settings.port": 5501
 }
